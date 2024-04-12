@@ -10,13 +10,22 @@ body{
     color: white;
 }
 .wrapper{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 .topCon{
     display: flex;
     justify-content: space-between;
     padding-top: 1em;
+}
+.image1{
+    width: 25%;
+}
+.image{
+    width: 6%;
+}
+.desktop{
+    display: none;
 }
 .two{
     display: flex;
@@ -26,4 +35,56 @@ body{
     text-decoration: none;
     color: white;
     font-size: 0.6em;
+}
+.unlock{
+    padding-top: 1em;
+}
+.earnings{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+.maxxed{
+    font-size: 0.7em;
+    text-align: center;
+}
+.flex2{
+    display: flex;
+    gap: 0.5em;
+}
+.users{
+    border-top: 2px solid #022BEE;
+    background-color: #0228EE33;
+    padding: 0.5em 1em;
+    width: 25%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: 0.7em;
+    margin-top: 1em;
+
+}
+.backgroundimage{
+    background-image: url(../assets/Group\ 52.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    
+}
+.image2{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 4em;
+    padding-right: 1em;
+}
+.crypto{
+    text-align: center;
+    padding-top: 0.3em;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.cryptocurrency{
+    font-size: 0.8em;
+    font-weight: 500;
 }
