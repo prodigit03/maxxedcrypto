@@ -88,3 +88,91 @@ body{
     font-size: 0.8em;
     font-weight: 500;
 }
+.assistance{
+    background-color: #0228EE33;
+    display: flex;
+    gap: 0.2em;
+    border-left: 2px solid #022BEE;
+    padding-left: 0.4em;
+    padding-top: 0.2em;
+}
+.image3{
+    width: 7%;
+}
+.wordings{
+    font-size: 0.7em;
+    padding: 0.3em;
+}
+.support{
+    background-color: #010D50;
+    display: flex;
+    gap: 0.3em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    font-size: 0.7em;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}
+.copy{
+    background-color: white;
+    border-radius: 0.5em;
+    color: #022BEE;
+    border: 2px solid white;
+    font-size: 0.8em;
+    padding: 0 0.5em;
+    margin: 0.5em;
+}
+.one{
+    background-color: #010D50;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin-top: 1em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em 0;
+}
+.imageCon{
+    width: 14%;
+    margin: 0 auto;
+    margin-right: 2em;
+   
+}
+.fuacet{
+    width: 75%;
+    margin: 0 auto;
+}
+.faucet{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.7em 0;
+}
+.gain{
+    font-size: 0.8em;
+}
+.flexthree{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.login{
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid #022BEE;
+    color: white;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+}
+.register{
+    text-decoration: none;
+    background-color: #022BEE;
+    color: white;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+}
