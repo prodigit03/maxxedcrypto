@@ -185,8 +185,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.background{
+    background-color: #0228EE33;
+}
 .group{
     width: 8%;
+    padding-bottom: 1em;
 }
 .group3{
     padding-top: 1em;
@@ -194,7 +198,12 @@ body{
 .flexfive{
     display: flex;
     gap: 1em;
+    align-items: center;
 }
 .access{
     font-size: 0.7em;
+}
+.planet{
+    padding-top: 2em;
+    border: 2px solid red;
 }
