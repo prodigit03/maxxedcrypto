@@ -263,3 +263,63 @@ body{
     padding: 2em 0;
     font-size: 1.5em;
 }
+.widthallover{
+    width: 80%;
+    margin: 0 auto;
+}
+.faqs{
+    padding: 1em 0;
+}
+.faq{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.question{
+    font-size: 0.7em;
+    text-align: center;
+}
+.accounts{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.plus{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.answer{
+    font-size: 0.6em;
+}
+.flexCon2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    border-bottom: 2px solid grey;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    gap: 1em;
+}
+.socialwidth{
+    width: 20%;
+}
+.flexCon3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.crypto{
+    font-size: 0.6em;
+    margin-left: -3em;
+}
+.terms{
+    text-decoration: none;
+    color: white;
+    font-size: 0.6em
+}
