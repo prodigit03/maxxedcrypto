@@ -13,19 +13,46 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+@media (min-width:767px) {
+    .wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 .topCon{
     display: flex;
     justify-content: space-between;
     padding-top: 1em;
 }
+@media (min-width:767px) {
+    .topCon{
+        display: flex;
+        align-items: center;
+    }
+}
 .image1{
     width: 25%;
+}
+@media (min-width:767px) {
+    .image1{
+        width: 10%;
+        padding-top: 1em;
+    }
 }
 .image{
     width: 6%;
 }
 .desktop{
     display: none;
+}
+@media (min-width:767px){
+    .desktop{
+        display: block;
+
+    }
+    .mobile{
+        display: none;
+    }
 }
 .two{
     display: flex;
@@ -35,6 +62,15 @@ body{
     text-decoration: none;
     color: white;
     font-size: 0.6em;
+}
+@media (min-width:767px) {
+    .flexfordesktop{
+        display: flex;
+    }
+    .flexsix{
+        width: 50%;
+        padding-top: 1em;
+    }
 }
 .unlock{
     padding-top: 1em;
@@ -63,6 +99,21 @@ body{
     margin-top: 1em;
 
 }
+@media (min-width:767px) {
+    .earnings{
+        width: 60%;
+        text-align: left;
+    }
+    .maxxed{
+        width: 50%;
+        text-align: left;
+        padding-bottom: 3em;
+        padding-top: 2em;
+    }
+    .users{
+        width: 15%;
+    }
+}
 .backgroundimage{
     background-image: url(../assets/Group\ 52.svg);
     background-size: cover;
@@ -70,6 +121,11 @@ body{
     background-position: center;
     height: 50vh;
     
+}
+@media (min-width:767px) {
+    .backgroundimage{
+        margin-left: 16em;
+    }
 }
 .image2{
     width: 50%;
@@ -88,6 +144,13 @@ body{
     font-size: 0.8em;
     font-weight: 500;
 }
+@media (min-width:767px) {
+    .flexConfordesktop{
+        display: flex;
+       
+        gap: 1em;
+    }
+}
 .assistance{
     background-color: #0228EE33;
     display: flex;
@@ -96,12 +159,28 @@ body{
     padding-left: 0.4em;
     padding-top: 0.2em;
 }
+@media (min-width:767px) {
+    .assistance{
+        width: 15%;
+       border: 2px solid red;
+    }
+}
 .image3{
     width: 7%;
+}
+@media (min-width:767px) {
+    .image3{
+      
+    }
 }
 .wordings{
     font-size: 0.7em;
     padding: 0.3em;
+}
+@media (min-width:767px) {
+    .wordings{
+        padding: 0;
+    }
 }
 .support{
     background-color: #010D50;
@@ -123,6 +202,26 @@ body{
     font-size: 0.8em;
     padding: 0 0.5em;
     margin: 0.5em;
+}
+@media (min-width:767px) {
+    .support{
+        width: 50%;
+    }
+    .desktopOne{
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 2em;
+        text-align: center;
+    }
+    .journey{
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .allfourflex{
+        display: flex;
+        gap: 1em;
+    }
 }
 .one{
     background-color: #010D50;
@@ -185,12 +284,25 @@ body{
     display: flex;
     justify-content: space-between;
 }
+@media (min-width:767px) {
+    .flexfour{
+       width: 80%;
+       margin: 0 auto;
+       padding-bottom: 3em;
+       padding-top: 1em;
+    }
+}
 .background{
     background-color: #0228EE33;
 }
 .group{
     width: 8%;
     padding-bottom: 1em;
+}
+@media (min-width:767px) {
+    .group{
+        width: 5%;
+    }
 }
 .group3{
     padding-top: 1em;
@@ -206,6 +318,18 @@ body{
 .planet{
     padding-top: 2em;
 }
+@media (min-width:767px) {
+    .flexdesktop{
+        display: flex;
+    }
+    .first{
+        padding-top: 4em;
+    }
+    .track{
+        width: 55%;
+        padding-bottom: 1em;
+    }
+}
 .proof{
     padding-top: 1em;
     font-size: 1.5em;
@@ -219,6 +343,14 @@ body{
 }
 .backgroundimagefordesktop{
     display: none;
+}
+@media (min-width:767px) {
+    .backgroundimagefordesktop{
+        display: block;
+    }
+    .tableCon{
+        border: 2px solid red;
+    }
 }
 .three{
     background-color: #010D50;
@@ -314,7 +446,7 @@ body{
     align-items: center;
     padding-bottom: 2em;
 }
-.crypto{
+.cryptoo{
     font-size: 0.6em;
     margin-left: -3em;
 }
