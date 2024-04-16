@@ -348,9 +348,6 @@ body{
     .backgroundimagefordesktop{
         display: block;
     }
-    .tableCon{
-        border: 2px solid red;
-    }
 }
 .three{
     background-color: #010D50;
@@ -394,6 +391,19 @@ body{
     font-weight: 500;
     padding: 2em 0;
     font-size: 1.5em;
+}
+@media (min-width:767px) {
+    .flexBoxs{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flexxx{
+        display: flex;
+        gap: 2em;
+    }
 }
 .widthallover{
     width: 80%;
@@ -454,4 +464,41 @@ body{
     text-decoration: none;
     color: white;
     font-size: 0.6em
+}
+@media (min-width:767px) {
+    .flex4{
+        display: flex;
+        gap: 2em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .paggination{
+        width: 10%;
+        margin: 0 auto;
+    }
+    .answerone{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .backgroundimagetwo{
+        background-image: url(../assets/Group\ 52.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .bitcoin{
+        width: 28%;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .infoCon td,  .tablerow th{
+        padding: 3em;
+        border-collapse: collapse;
+        border-bottom: 1px solid grey;
+        text-align: center;
+    }
 }
