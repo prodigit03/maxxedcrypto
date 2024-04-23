@@ -31,7 +31,7 @@ body{
     }
 }
 .image1{
-    width: 25%;
+    width: 35%;
 }
 @media (min-width:767px) {
     .image1{
@@ -78,11 +78,12 @@ body{
 .earnings{
     font-size: 2em;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 .maxxed{
     font-size: 0.7em;
     text-align: center;
+    padding: 1.5em 0;
 }
 .flex2{
     display: flex;
@@ -139,6 +140,7 @@ body{
     width: 60%;
     margin: 0 auto;
     font-size: 1em;
+    font-weight: 700;
 }
 .cryptocurrency{
     font-size: 0.8em;
@@ -158,6 +160,14 @@ body{
     border-left: 2px solid #022BEE;
     padding-left: 0.4em;
     padding-top: 0.2em;
+    margin-top: 0.5em;
+}
+.center{
+    
+    display: flex;
+    gap: 1em;
+    width: 50%;
+    margin: 0 auto;
 }
 @media (min-width:767px) {
     .assistance{
@@ -166,7 +176,7 @@ body{
     }
 }
 .image3{
-    width: 7%;
+    width: 10%;
 }
 @media (min-width:767px) {
     .image3{
@@ -184,8 +194,6 @@ body{
 }
 .support{
     background-color: #010D50;
-    display: flex;
-    gap: 0.3em;
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     font-size: 0.7em;
@@ -193,6 +201,13 @@ body{
     margin-top: 1em;
     margin-bottom: 1em;
     align-items: center;
+}
+.centerTwo{
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 .copy{
     background-color: white;
@@ -278,7 +293,7 @@ body{
 .green{
     font-size: 0.6em;
     text-align: center;
-    padding-bottom: 1em;
+    padding: 4em 0;
 }
 .flexfour{
     display: flex;
@@ -294,6 +309,7 @@ body{
 }
 .background{
     background-color: #0228EE33;
+    
 }
 .group{
     width: 8%;
@@ -335,6 +351,7 @@ body{
     font-size: 1.5em;
     text-align: center;
     padding-bottom: 0.6em;
+    font-weight: 700;
 }
 .embark{
     font-size: 0.8em;
@@ -388,7 +405,7 @@ body{
 }
 .userss{
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     padding: 2em 0;
     font-size: 1.5em;
 }
